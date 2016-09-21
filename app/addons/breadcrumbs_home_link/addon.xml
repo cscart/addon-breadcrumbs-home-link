@@ -7,4 +7,19 @@
     <description>Change the home breadcrumbs link direction</description>
     <status>active</status>
     <auto_install>ULTIMATE</auto_install>
+
+    <settings>
+        <sections>
+            <section id="section">
+                <items>
+                    <item id="link">
+                        <type>input</type>
+                        <name>The home link of your store</name>
+                        <default_value>http://www.domain.com</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
 </addon>
